@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '18238683'))
 API_HASH = environ.get('API_HASH', '1068ecf4ac70a8f6ac161b7512bbf128')
-BOT_TOKEN = environ.get('BOT_TOKEN', '5697457079:AAFkhVEkoWfwle5rV_daKE14JZZi9IFQqqk')
+BOT_TOKEN = environ.get('BOT_TOKEN', '5384534267:AAFCD8IrJGTIEtzpDoUUbMapertLGXfV6FI')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -32,7 +32,7 @@ AUTH_CHANNEL = environ.get('AUTH_CHANNEL', '-1001874413880')
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Anuragbot:Anuragbot@cluster0.k6jqnyf.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://babu:babu@cluster0.q3l9nbe.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Anuragbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Anurag_files')
 
